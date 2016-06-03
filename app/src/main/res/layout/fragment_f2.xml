@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/f2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am f2"
+        />
+    <Button
+        android:id="@+id/f2_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="b2"
+        android:text="F2 Button"
+        />
+
+</LinearLayout>
